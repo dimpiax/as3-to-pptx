@@ -179,8 +179,8 @@ package com.dimpiax.utils.pptx {
 				case APPLICATION: // change slides count in Properties.Slides
 				
 				// template of slide
-				case "ppt/slides/slide1.xml":
-				case "ppt/slides/_rels/slide1.xml.rels":
+				//case "ppt/slides/slide1.xml":
+				//case "ppt/slides/_rels/slide1.xml.rels":
 				
 				_filesCollector[filename] = XML(fileBytes.readUTFBytes(fileBytes.bytesAvailable));
 			}
